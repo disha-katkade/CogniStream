@@ -9,7 +9,7 @@ from google import genai
 from google.genai import types
 
 # --- 1. CONFIGURATION ---
-API_KEY = "AIzaSyCos0vJ7RvWPRZJvAF_NCetqVoS08nvIKE" # Ensure your key is here
+API_KEY = "AIzaSyCos0vJ7RvWPRZJvAF_NCetqVoS08nvIK" # Ensure your key is here
 client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1alpha'))
 
 class CogniStreamApp:
@@ -163,4 +163,5 @@ class CogniStreamApp:
 
 if __name__ == "__main__":
     app = CogniStreamApp()
+
     app.run()
