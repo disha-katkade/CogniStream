@@ -7,7 +7,7 @@ import time
 import os
 
 # 1. Setup your API Key
-API_KEY = "AIzaSyCos0vJ7RvWPRZJvAF_NCetqVoS08nvIKE"
+API_KEY = "AIzaSyCos0vJ7RvWPRZJvAF_NCetqVo"
 client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1alpha'))
 
 def capture_and_blur():
@@ -60,4 +60,5 @@ try:
         # Wait 30 seconds before the next check to stay in the free tier
         time.sleep(30)
 except KeyboardInterrupt:
+
     print("\nCogniStream stopped.")
