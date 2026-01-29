@@ -7,7 +7,7 @@ import time
 import os
 
 # 1. Setup your API Key
-API_KEY = "AIzaSyCos0vJ7RvWPRZJvAF"
+API_KEY = "AIzaSyCos0v"
 client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1alpha'))
 
 def capture_and_blur():
@@ -62,4 +62,5 @@ try:
 except KeyboardInterrupt:
 
     print("\nCogniStream stopped.")
+
 
