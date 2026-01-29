@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 
 # PASTE YOUR KEY HERE
-CLIENT_KEY = "AIzaSyCos" 
+CLIENT_KEY = "----" 
 
 # We set the version to v1alpha to unlock Gemini 3's special features
 client = genai.Client(
@@ -26,4 +26,5 @@ print("SYSTEM CHECK: SUCCESS!")
 print(f"GEMINI RESPONSE: {response.text}")
 
 print("-" * 30)
+
 
