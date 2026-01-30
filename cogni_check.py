@@ -28,3 +28,4 @@ print(f"GEMINI RESPONSE: {response.text}")
 print("-" * 30)
 
 
+
