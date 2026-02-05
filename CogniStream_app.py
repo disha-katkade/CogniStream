@@ -7,9 +7,23 @@ import numpy as np
 import pyttsx3  # Added for voice
 from google import genai
 from google.genai import types
+import os  # Added to check for file existence
 
-# --- 1. CONFIGURATION ---
-API_KEY = "" # Your API Key here
+# --- 1. CONFIGURATION: SAFE LOADING ---
+def load_api_key():
+    """Safely loads the API key from a local text file."""
+    try:
+        if os.path.exists("keys.txt"):
+            with open("keys.txt", "r") as f:
+                key = f.read().strip()
+                if key:
+                    return key
+        return "YOUR_API_KEY_HERE" # Default placeholder
+    except Exception as e:
+        print(f"Error loading keys.txt: {e}")
+        return "YOUR_API_KEY_HERE"
+
+API_KEY = load_api_key()
 client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1alpha'))
 
 class CogniStreamApp:
@@ -22,12 +36,16 @@ class CogniStreamApp:
         self.root.attributes("-alpha", 0.9)
         self.root.configure(bg="#0a0a0a")
 
-        self.chat_session = client.chats.create(
-            model="gemini-3-flash-preview",
-            config=types.GenerateContentConfig(
-                thinking_config=types.ThinkingConfig(thinking_level="HIGH")
+        # Initialize chat session with the loaded key
+        try:
+            self.chat_session = client.chats.create(
+                model="gemini-3-flash-preview",
+                config=types.GenerateContentConfig(
+                    thinking_config=types.ThinkingConfig(thinking_level="HIGH")
+                )
             )
-        )
+        except Exception as e:
+            print(f"Initialization Error: {e}")
 
         self.stop_event = Event()
         self._offsetx = 0
@@ -102,25 +120,22 @@ class CogniStreamApp:
             self.update_ui("I'm back. Scanning now...")
             self.start_ai_thread()
 
-    # --- UPDATED SPEAKING HELPER (More reliable) ---
     def speak(self, text):
         def _speak_task():
             try:
-                # We initialize inside the thread so it doesn't conflict
                 speaker = pyttsx3.init()
                 speaker.setProperty('rate', 170)
                 speaker.say(text)
                 speaker.runAndWait()
-                speaker.stop() # Clean up after speaking
+                speaker.stop()
             except:
                 pass
         Thread(target=_speak_task, daemon=True).start()
-    # -----------------------------------------------
 
     def update_ui(self, msg):
         self.text_area.delete(1.0, tk.END)
         self.text_area.insert(tk.END, f"» {msg}")
-        self.speak(msg) # Trigger the reliable voice helper
+        self.speak(msg)
 
     def vision_loop(self):
         while not self.stop_event.is_set():

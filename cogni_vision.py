@@ -6,8 +6,21 @@ from google.genai import types
 import time
 import os
 
-# 1. Setup your API Key
-API_KEY = ""
+# --- 1. CONFIGURATION: SAFE LOADING ---
+def load_api_key():
+    """Safely loads the API key from a local text file to avoid hardcoding."""
+    try:
+        if os.path.exists("keys.txt"):
+            with open("keys.txt", "r") as f:
+                key = f.read().strip()
+                if key:
+                    return key
+        return "YOUR_API_KEY_HERE"  # Placeholder for GitHub/Deployment
+    except Exception as e:
+        print(f"Error loading keys.txt: {e}")
+        return "YOUR_API_KEY_HERE"
+
+API_KEY = load_api_key()
 client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1alpha'))
 
 def capture_and_blur():
@@ -30,20 +43,23 @@ def capture_and_blur():
 
 def get_ai_advice(image_path):
     # Prepare the vision prompt
-    with open(image_path, "rb") as f:
-        image_bytes = f.read()
+    try:
+        with open(image_path, "rb") as f:
+            image_bytes = f.read()
 
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        config=types.GenerateContentConfig(
-            thinking_config=types.ThinkingConfig(thinking_level="HIGH")
-        ),
-        contents=[
-            types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
-            "I am working on the task shown in this image. Do you notice any errors, or do you have a 'pro tip' to make this faster?"
-        ]
-    )
-    return response.text
+        response = client.models.generate_content(
+            model="gemini-3-flash-preview",
+            config=types.GenerateContentConfig(
+                thinking_config=types.ThinkingConfig(thinking_level="HIGH")
+            ),
+            contents=[
+                types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
+                "I am working on the task shown in this image. Do you notice any errors, or do you have a 'pro tip' to make this faster?"
+            ]
+        )
+        return response.text
+    except Exception as e:
+        return f"AI Error: {e}. Check if your API key in keys.txt is valid."
 
 # --- RUN THE LOOP ---
 print("CogniStream is now watching... (Press Ctrl+C to stop)")
