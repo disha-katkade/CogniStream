@@ -24,11 +24,22 @@ This application leverages the **Gemini 3 Flash** multimodal model to provide lo
 ---
 
 ## 🛠️ Tech Stack
-- **AI:** Gemini 3 API (Google GenAI SDK)
-- **Vision:** OpenCV, PyAutoGUI
-- **UI/Audio:** Tkinter, pyttsx3
-- **Language:** Python 3.x
 
+### **AI & Reasoning**
+![Gemini](https://img.shields.io/badge/Google_Gemini_3-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### **Computer Vision & Automation**
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB)
+
+### **Frontend & Audio**
+![Tkinter](https://img.shields.io/badge/Tkinter_GUI-gray?style=for-the-badge)
+![TTS](https://img.shields.io/badge/Pyttsx3_TTS-FF6F61?style=for-the-badge)
+
+### **Version Control & Deployment**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ---
 
 ## 📦 Installation & Setup
