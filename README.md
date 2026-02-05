@@ -63,6 +63,52 @@ Minimizes API calls by scanning only when screen changes occur.
 Start and stop screen scanning instantly.
 
 ---
+## 🛠️ Tech Stack
 
-## ⚙️ How It Works
+### 🤖 AI & Reasoning
+| Technology | Purpose |
+|-----------|---------|
+| 🧠 **Gemini 3 Flash** | Multimodal reasoning & low latency inference |
+| 🐍 **Python 3.10+** | Core application logic |
+
+### 👁️ Computer Vision & Automation
+| Tool | Role |
+|-----|------|
+| 📷 **OpenCV** | Screen capture and frame processing |
+| 🖱️ **PyAutoGUI** | Screen automation and detection |
+
+### 🖥️ UI & Audio
+| Tool | Role |
+|-----|------|
+| 🪟 **Tkinter** | Lightweight HUD interface |
+| 🔊 **pyttsx3** | Text-to-Speech voice output |
+
+---
+
+## 📦 Installation & Setup
+
+###  Clone Repository
+```bash
+git clone https://github.com/disha-katkade/CogniStream.git
+cd CogniStream
+```
+### Install Dependencies
+```bash
+git clone https://github.com/disha-katkade/CogniStream.git
+cd CogniStream
+```
+### Clone Repository
+```bash
+pip install -r requirements.txt
+```
+### Configure API Key
+```bash
+YOUR_GEMINI_API_KEY
+```
+### Run Application
+```bash
+python CogniStream_app.py
+```
+
+
 
