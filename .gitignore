@@ -1,0 +1,10 @@
+# Sensitive data
+keys.txt
+
+# Temporary Vision Files
+*.jpg
+*.png
+
+# Python system files
+__pycache__/
+*.pyc
