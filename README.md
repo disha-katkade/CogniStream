@@ -17,6 +17,20 @@ Instead of pasting code into a chat window, CogniStream **watches your screen**,
 Built exclusively for the **Gemini 3 Global Hackathon**, CogniStream demonstrates how Gemini 3 can power **continuous visual reasoning**, **hands-free assistance**, and **ultra-low latency feedback**.
 
 ---
+## ⚡ Quick Start (No Setup Required)
+Want to try CogniStream instantly without installing Python?
+
+👉 Download the ready-to-run Windows executable from the **Latest Release**:  
+🔗 https://github.com/disha-katkade/CogniStream/releases
+
+**Folder Structure Example:**
+- 📂 CogniStream_Folder
+  - 📄 CogniStream.exe
+  - 📄 keys.txt (Your API key goes here)
+    
+> Simply place your Gemini API key inside `keys.txt`, launch `CogniStream.exe`, and the HUD will start immediately.
+
+---
 
 ## 🧠 Why Gemini 3?
 
