@@ -1,8 +1,9 @@
 # CogniStream ⠿ | Gemini 3 AI Coding Partner
 
-**Project for the Gemini 3 Global Hackathon**
+> **Project for the Gemini 3 Global Hackathon**
 
-CogniStream is a real-time, multimodal HUD (Heads-Up Display) that acts as a proactive coding partner. Using Gemini 3's vision capabilities, it monitors your screen, detects errors, and provides voice-enabled suggestions without requiring manual code input.
+> CogniStream is a real-time, multimodal HUD (Heads-Up Display) that acts as a proactive coding partner. Using Gemini 3's vision capabilities, it monitors your screen, detects errors, and provides voice-enabled
+> suggestions without requiring manual code input.
 
 ---
 
