@@ -68,20 +68,20 @@ Start and stop screen scanning instantly.
 ### 🤖 AI & Reasoning
 | Technology | Purpose |
 |-----------|---------|
-| 🧠 **Gemini 3 Flash** | Multimodal reasoning & low latency inference |
-| 🐍 **Python 3.10+** | Core application logic |
+| **Gemini 3 Flash** | Multimodal reasoning & low latency inference |
+| **Python 3.10+** | Core application logic |
 
 ### 👁️ Computer Vision & Automation
 | Tool | Role |
 |-----|------|
-| 📷 **OpenCV** | Screen capture and frame processing |
-| 🖱️ **PyAutoGUI** | Screen automation and detection |
+|  **OpenCV** | Screen capture and frame processing |
+|  **PyAutoGUI** | Screen automation and detection |
 
 ### 🖥️ UI & Audio
 | Tool | Role |
 |-----|------|
-| 🪟 **Tkinter** | Lightweight HUD interface |
-| 🔊 **pyttsx3** | Text-to-Speech voice output |
+|  **Tkinter** | Lightweight HUD interface |
+|  **pyttsx3** | Text-to-Speech voice output |
 
 ---
 
