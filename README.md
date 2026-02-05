@@ -84,6 +84,26 @@ Start and stop screen scanning instantly.
 |  **pyttsx3** | Text-to-Speech voice output |
 
 ---
+## 🚀 How to Run CogniStream
+To use the standalone version of CogniStream without setting up a Python environment, follow these steps:
+
+### 1. Download the Executable
+Go to the Releases section on the right side of this page.
+
+Download ```CogniStream.exe```.
+
+### 2. Set Up Your API Key
+For security, the application does not store an API key. You must provide your own:
+- Create a new text file in the same folder as the ```.exe```.
+- Rename this file to ```keys.txt```.
+- Open the file and paste your Gemini API Key inside (get one at Google AI Studio).
+- Save and close the file.
+
+### 3. Launch
+Double-click ```CogniStream.exe```.
+
+The AI will initialize and greet you once the connection is established.
+---
 
 ## 📦 Installation & Setup
 
