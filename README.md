@@ -48,7 +48,7 @@ This application leverages the **Gemini 3 Flash** multimodal model to provide lo
 1. **Clone the Repo:**
    
    ```bash
-   git clone [https://github.com/disha-katkade/CogniStream.git](https://github.com/disha-katkade/CogniStream.git)
+   git clone https://github.com/disha-katkade/CogniStream.git
    cd CogniStream
    ```
    
