@@ -110,5 +110,5 @@ YOUR_GEMINI_API_KEY
 python CogniStream_app.py
 ```
 ---
-> ⭐ CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.
+> ⭐ *CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.*
 
