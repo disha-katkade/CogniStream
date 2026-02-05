@@ -117,8 +117,9 @@ A ~3 minute demo video showcases:
 - Voice-based AI feedback powered by Gemini 3
 ---
 ## 👤 Author
-Disha Katkade
-🔗 GitHub: https://github.com/disha-katkade
+
+#### Disha Katkade
+- 🔗 GitHub: https://github.com/disha-katkade
 ---
 > ⭐ *CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.*
 
