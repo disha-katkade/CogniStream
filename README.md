@@ -110,5 +110,15 @@ YOUR_GEMINI_API_KEY
 python CogniStream_app.py
 ```
 ---
+## 🎥 Demo
+A ~3 minute demo video showcases:
+- Live coding error detection
+- Real-time UI/UX critique
+- Voice-based AI feedback powered by Gemini 3
+---
+## 👤 Author
+Disha Katkade
+🔗 GitHub: https://github.com/disha-katkade
+---
 > ⭐ *CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.*
 
