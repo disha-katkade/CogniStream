@@ -47,19 +47,19 @@ Gemini 3 enables continuous screen understanding and instant analysis—somethin
 
 ## ✨ Key Features
 
-**Proactive Debugging**  
+- **Proactive Debugging**  
 Automatically detects syntax errors, logic flaws, and warnings while you code.
 
-**UI/UX Design Analysis**  
+- **UI/UX Design Analysis**  
 Evaluates layout, alignment, spacing, and color contrast in real time.
 
-**Voice HUD**  
+- **Voice HUD**  
 Delivers AI suggestions via Text-to-Speech for hands-free usage.
 
-**Smart Activity Detection**  
+- **Smart Activity Detection**  
 Minimizes API calls by scanning only when screen changes occur.
 
-**Privacy-First Control**  
+- **Privacy-First Control**  
 Start and stop screen scanning instantly.
 
 ---
@@ -109,6 +109,6 @@ YOUR_GEMINI_API_KEY
 ```bash
 python CogniStream_app.py
 ```
-
-
+---
+> ⭐ CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.
 
