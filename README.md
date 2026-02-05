@@ -1,85 +1,68 @@
-# CogniStream ⠿ | Gemini 3 AI Coding Partner
+# 🚀 CogniStream ⠿  
+### *Your Real-Time Gemini 3 AI Coding Partner*
 
-> **Project for the Gemini 3 Global Hackathon**
-
-> CogniStream is a real-time, multimodal HUD (Heads-Up Display) that acts as a proactive coding partner. Using Gemini 3's vision capabilities, it monitors your screen, detects errors, and provides voice-enabled
-> suggestions without requiring manual code input.
-
----
-
-## 🚀 Gemini 3 Integration
-This application leverages the **Gemini 3 Flash** multimodal model to provide low-latency visual reasoning.
-
-* **Visual Reasoning:** Uses Gemini 3 to analyze real-time screen captures of IDEs and UI designs.
-* **Contextual Intelligence:** Employs the `thinking_level="HIGH"` configuration for deep-dive logic analysis.
-* **Multimodal Feedback:** Translates visual data into concise text tips, delivered via synchronized voice output.
+<p align="center">
+  <img src="https://img.shields.io/badge/Gemini_3-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Multimodal_AI-Vision_+_Reasoning-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Low_Latency-Real_Time-blue?style=for-the-badge"/>
+</p>
 
 ---
 
-## ✨ Features
-- **Proactive Debugging:** Automatically identifies logic flaws and syntax errors.
-- **Design Critique:** Analyzes UI/UX layouts, alignment, and color contrast.
-- **Voice HUD:** Hands-free partner feedback using Text-to-Speech (TTS).
-- **Intelligent Activity Sensing:** Minimizes API calls by only scanning when screen changes are detected.
+## 🌟 Overview
+
+**CogniStream** is a **real-time, multimodal Heads-Up Display (HUD)** that works as a **proactive AI coding partner**.  
+Instead of pasting code into a chat window, CogniStream **watches your screen**, understands what you are doing, and **speaks intelligent suggestions instantly**.
+
+Built exclusively for the **Gemini 3 Global Hackathon**, CogniStream demonstrates how Gemini 3 can power **continuous visual reasoning**, **hands-free assistance**, and **ultra-low latency feedback**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Why Gemini 3?
 
-### **AI & Reasoning**
-![Gemini](https://img.shields.io/badge/Google_Gemini_3-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+CogniStream is only feasible with **Gemini 3’s multimodal vision and fast reasoning**.
 
-### **Computer Vision & Automation**
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB)
+| Traditional AI Assistants | CogniStream + Gemini 3 |
+|---------------------------|------------------------|
+| Manual prompts required | Fully automatic |
+| Text-only understanding | Vision + reasoning |
+| High response latency | Real-time feedback |
+| Passive chatbot | Proactive AI partner |
 
-### **Frontend & Audio**
-![Tkinter](https://img.shields.io/badge/Tkinter_GUI-gray?style=for-the-badge)
-![TTS](https://img.shields.io/badge/Pyttsx3_TTS-FF6F61?style=for-the-badge)
+Gemini 3 enables continuous screen understanding and instant analysis—something not practical with text-only or slower models.
 
-### **Version Control & Deployment**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ---
 
-## 📦 Installation & Setup
+## 🔗 Gemini 3 Integration
 
-1. **Clone the Repo:**
-   
-   ```bash
-   git clone https://github.com/disha-katkade/CogniStream.git
-   cd CogniStream
-   ```
-   
-2. **Install Dependencies:**
-   
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-3. **API Configuration:**
-   Create a keys.txt file in the root directory and paste your API Key:
-   
-   ```bash
-   YOUR_GEMINI_API_KEY
-   ```
-   
-4. **Run Application:**
-   
-   ```bash
-   python CogniStream_app.py
-   ```
-## 📖 How to Use
-### 📖 User Guide
+| Capability | Usage in CogniStream |
+|-----------|----------------------|
+| **Model** | Gemini 3 Flash |
+| **Vision** | Analyzes live screen captures from IDEs and UI tools |
+| **Reasoning** | `thinking_level="HIGH"` for deep logic and design analysis |
+| **Latency** | Optimized for near-instant responses |
+| **Multimodal Output** | Visual input → text insights → voice feedback |
 
-| Feature | Control | Function |
-| :--- | :--- | :--- |
-| **Launch** | Terminal Command | Run `python CogniStream_app.py` to start the HUD. |
-| **Move** | Header Drag | Click and drag the header to reposition the window. |
-| **Debug** | `DEBUG` Mode | Focuses AI on logic, bugs, and syntax errors. |
-| **Design** | `DESIGN` Mode | Focuses AI on UI/UX, layouts, and aesthetics. |
-| **Status** | Blinking Dot | Indicates when Gemini 3 is active and thinking. |
-| **Voice** | Auto-Audio | Partner suggestions are read aloud automatically. |
-| **Control** | `START` / `STOP` | Toggles the screen scanning loop for privacy. |
-| **Close** | `EXIT` | Terminates all threads and closes the app safely. |
+---
+
+## ✨ Key Features
+
+🔍 **Proactive Debugging**  
+Automatically detects syntax errors, logic flaws, and warnings while you code.
+
+🎨 **UI/UX Design Analysis**  
+Evaluates layout, alignment, spacing, and color contrast in real time.
+
+🎧 **Voice HUD**  
+Delivers AI suggestions via Text-to-Speech for hands-free usage.
+
+⚡ **Smart Activity Detection**  
+Minimizes API calls by scanning only when screen changes occur.
+
+🔒 **Privacy-First Control**  
+Start and stop screen scanning instantly.
+
+---
+
+## ⚙️ How It Works
+
