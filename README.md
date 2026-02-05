@@ -50,23 +50,20 @@ This application leverages the **Gemini 3 Flash** multimodal model to provide lo
    git clone [https://github.com/disha-katkade/CogniStream.git](https://github.com/disha-katkade/CogniStream.git)
    cd CogniStream
    ```
-1. **Clone the Repo:**
    
-   ```bash
-   git clone [https://github.com/disha-katkade/CogniStream.git](https://github.com/disha-katkade/CogniStream.git)
-   cd CogniStream
-   ```
 2. **Install Dependencies:**
    
    ```bash
    pip install -r requirements.txt
    ```
+   
 3. **API Configuration:**
    Create a keys.txt file in the root directory and paste your API Key:
    
    ```bash
    YOUR_GEMINI_API_KEY
    ```
+   
 4. **Run Application:**
    
    ```bash
