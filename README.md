@@ -159,6 +159,8 @@ A ~3 minute demo video showcases:
 
 #### Disha Katkade
 - 🔗 GitHub: https://github.com/disha-katkade
+  
 ---
+
 > ⭐ *CogniStream redefines how developers collaborate with AI — not by chatting, but by thinking together in real time.*
 
