@@ -147,6 +147,7 @@ YOUR_GEMINI_API_KEY
 python CogniStream_app.py
 ```
 ---
+
 ## 🎥 Demo
 A ~3 minute demo video showcases:
 - Live coding error detection
