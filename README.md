@@ -152,7 +152,9 @@ A ~3 minute demo video showcases:
 - Live coding error detection
 - Real-time UI/UX critique
 - Voice-based AI feedback powered by Gemini 3
+  
 ---
+
 ## 👤 Author
 
 #### Disha Katkade
