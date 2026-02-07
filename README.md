@@ -75,6 +75,7 @@ Minimizes API calls by scanning only when screen changes occur.
 
 - **Privacy-First Control**  
 Start and stop screen scanning instantly.
+
 ---
 
 ## 🛠️ Tech Stack
