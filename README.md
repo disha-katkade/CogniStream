@@ -99,6 +99,7 @@ Start and stop screen scanning instantly.
 |  **pyttsx3** | Text-to-Speech voice output |
 
 ---
+
 ## 🚀 How to Run CogniStream
 To use the standalone version of CogniStream without setting up a Python environment, follow these steps:
 
