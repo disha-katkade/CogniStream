@@ -119,6 +119,7 @@ For security, the application does not store an API key. You must provide your o
 Double-click ```CogniStream.exe```.
 
 The AI will initialize and greet you once the connection is established.
+
 ---
 
 ## 📦 Installation & Setup
